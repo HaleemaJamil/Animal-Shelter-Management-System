@@ -1,0 +1,117 @@
+﻿body {
+    background-color: lightcyan;
+}
+.postDiv {
+    color: black;
+    background-color: burlywood;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px 5px;
+}
+#leftbox {
+    float: left;
+    background-color: darkcyan;
+    width: 20%;
+    height:none;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px 5px;
+    margin-right:5%;
+}
+
+#middlebox {
+    float: left;
+    background-color: cyan;
+    width: 40%;
+    height: none;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px 5px;
+    margin-right: 5%;
+}
+
+#rightbox {
+    float: right;
+    background-color: darkcyan;
+    width: 25%;
+    height: none;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px 5px;
+}
+aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+    position:fixed;
+}
+label {
+    color: black;
+    font-weight: bold;
+    display: block;
+    float: left;
+    width: 115px;
+    font-family: 'Poppins';
+}
+
+small {
+    color: black;
+    font-weight: bold;
+    font-family: 'Poppins';
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.Button1 {
+    background-color: lightcyan;
+    display: inline-block;
+    /*width: 100px;*/
+    width:auto;
+    border-width: 3px;
+    border-radius: 10px;
+    font-size: 10px;
+    font-family: 'Poppins';
+    text-align: center;
+}
+.divCenter {
+    margin: 10px;
+    width: 115px;
+    height: 115px;
+    border: 1px solid red;
+}
+.resize_fit_center {
+    vertical-align: middle;
+}
+.fit_width {
+    width:100%;
+}
+.fit_height {
+    height:100%;
+}
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
